@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="STCU.Middleware" Version="1.1.0.3" />
+    <PackageReference Include="STCU.SerilogConfiguration.Web" Version="3.0.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoMock.Core\AutoMock.Core.csproj" />
+  </ItemGroup>
+
+</Project>
